@@ -36,9 +36,6 @@ cdp-ui@0.0.1 /Users/duanyiding/WebstormProjects/cdp-ui
 ### npm root -g
 查看全局的包的安装路径  
 
-### npmr
-
-
 ## 网上说得不太清除的几个事儿
 ### 依赖版本中使用 ~ 和 ^ 的区别  
 这个问题其实说的是**语义化版本SemVer**。  
