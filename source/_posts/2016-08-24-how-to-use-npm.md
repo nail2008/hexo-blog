@@ -16,9 +16,8 @@ tags:
 - [菜鸟教程](http://www.runoob.com/nodejs/nodejs-npm.html)
 
 ## 常用命令
-```
-npm ls jquery
-```
+### npm ls module_name
+查看依赖的使用情况  
 ```
 cdp-ui duanyiding$ npm ls jquery
 cdp-ui@0.0.1 /Users/duanyiding/WebstormProjects/cdp-ui
@@ -27,6 +26,17 @@ cdp-ui@0.0.1 /Users/duanyiding/WebstormProjects/cdp-ui
     `-- jquery@3.1.0 
 
 ```
+
+### npm info(view) module_name
+列出详细信息，如果只想查看版本：npm info module_name versions  
+
+### npm outdated  
+检查包是否已经过时，此命令会列出所有已经过时的包，可以及时进行包的更新   
+
+### npm root -g
+查看全局的包的安装路径  
+
+### npmr
 
 
 ## 网上说得不太清除的几个事儿
