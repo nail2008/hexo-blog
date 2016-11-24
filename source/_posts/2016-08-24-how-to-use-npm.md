@@ -36,6 +36,48 @@ cdp-ui@0.0.1 /Users/duanyiding/WebstormProjects/cdp-ui
 ### npm root -g
 查看全局的包的安装路径  
 
+## 常用命令简写
+* -v: --version
+* -h, -?, --help, -H: --usage
+* -s, --silent: --loglevel silent
+* -q, --quiet: --loglevel warn
+* -d: --loglevel info
+* -dd, --verbose: --loglevel verbose
+* -ddd: --loglevel silly
+* -g: --global
+* -C: --prefix
+* -l: --long
+* -m: --message
+* -p, --porcelain: --parseable
+* -reg: --registry
+* -f: --force
+* -desc: --description
+* -S: --save
+* -D: --save-dev
+* -O: --save-optional
+* -B: --save-bundle
+* -E: --save-exact
+* -y: --yes
+* -n: --yes false
+* ll and la commands: ls --long
+
+## 使用淘宝镜像
+不使用cnpm命令行，但是使用淘宝镜像，有以下三种方式，推荐第三种：
+1. 通过 config 配置指向国内镜像源
+```
+npm config set registry http://registry.cnpmjs.org //配置指向源
+npm info express  //下载安装第三方包
+```
+2. 通过 npm 命令指定下载源
+```
+npm --registry http://registry.cnpmjs.org info express
+```
+3. 在配置文件 ~/.npmrc 文件写入源地址
+```
+nano ~/.npmrc   //打开配置文件
+registry =https://registry.npm.taobao.org   //写入配置文件
+```
+
 ## 网上说得不太清除的几个事儿
 ### 依赖版本中使用 ~ 和 ^ 的区别  
 这个问题其实说的是**语义化版本SemVer**。  
@@ -54,4 +96,6 @@ cdp-ui@0.0.1 /Users/duanyiding/WebstormProjects/cdp-ui
 http://semver.org/  
 https://cnpmjs.org/package/semver   
 https://docs.npmjs.com/misc/semver   
+
+
 
