@@ -218,6 +218,24 @@ log4j-1.2.13.jar
 
 </ehcache>
 ```
+### 配置VM OPTIONS
+```
+-Dfile.encoding=UTF-8           // 解决console中文乱码
+-Djgroups.bind_addr=192.168.6.28            // jgroups基本配置
+-Djgroups.tcpping.initial_hosts=192.168.6.28[40000]     // jgroups基本配置
+-Djava.net.preferIPv4Stack=true  
+```
+
+前三个没什么好说的，第四个如果没有，服务启动可能会报错，如下：
+
+```
+[2017-05-27 09:55:01.128]<TransferQueueBundler,EH_CACHE,duanyidingdeMacBook-Pro-41155>[WARN ] JGRP000034: duanyidingdeMacBook-Pro-41155: failure sending message to /ff0e:0:0:0:0:8:8:8: java.io.IOException: No route to host (received 7 identical messages from /ff0e:0:0:0:0:8:8:8 in the last 76445 ms) [] org.jgroups.util.SuppressLog.log(SuppressLog.java:47)
+```
+
+原因：  
+https://gist.github.com/rafaeltuelho/208568668e4205bd9b93  
+http://colky.iteye.com/blog/1188408  
+
 ### 调试和监控
 
 #### `ehcache-debugger-1.7.1.jar`
@@ -234,6 +252,7 @@ http://www.ehcache.org/documentation/2.8/operations/remotedebugger.html
 
 #### Ehcache-Monitor
 安装见：[Ehcache-Monitor](https://nail2008.github.io/2017/05/17/how-to-use-ehcache-monitor/)
+
 
 ## 资料
 [JGroups官方文档](http://www.jgroups.org/manual/index.html)
