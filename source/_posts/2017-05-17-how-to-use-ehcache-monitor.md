@@ -3,10 +3,11 @@ title: Ehcache Monitor 安装及使用
 layout: post
 date: 2017-05-17 16:47:36
 categories:
-- 开发工具
+- 服务端
 tags:
-- ehcache
-- ehcache-monitor
+- 缓存
+- Ehcache
+- Ehcache-Monitor
 ---
 
 [Ehcache](http://www.ehcache.org/)是Java常用的缓存方案，由于直接运行在JVM里，所以还是有很多场合是Redis无法替代的。
