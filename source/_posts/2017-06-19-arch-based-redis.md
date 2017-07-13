@@ -16,7 +16,7 @@ tags:
 
 # 资料
 
-## 架构
+## 架构  
 
 [Redis/Twisted系统整合 ](http://blog.sina.com.cn/s/blog_4680937f0102wsdj.html)  
 [时序数据库](https://cloud.baidu.com/product/tsdb.html?track=cp:nsem|pf:pc|pp:tsdb|pu:tsdb|ci:|kw:59248)  
@@ -29,7 +29,7 @@ tags:
 
 [redis怎么做消息队列？](https://www.zhihu.com/question/20795043)
 
-## 测试
+## 测试  
 [Redis 的性能幻想与残酷现实](http://blog.csdn.net/mindfloating/article/details/50381978)  
 
 知乎问题：  
@@ -37,8 +37,7 @@ tags:
 现在业务上每天有5亿+的请求，平时redis的操作在2K+每秒左右。到了高峰有3K+，这时候客户端就会频繁的报connect time out的异常。  
 但是，资料上说redis可以达到10W每秒。3K远远不到w这个级别啊，请问有什么建议优化现在的情况么？   
 
-## 使用
-
+## 使用  
 [Jedis对redis的操作详解](http://www.importnew.com/19321.html)  
 [Java中使用Jedis操作Redis](http://www.cnblogs.com/liuling/p/2014-4-19-04.html)  
 
@@ -46,9 +45,9 @@ tags:
 [redis3.2新功能--GEO地理位置命令介绍](http://blog.csdn.net/opensure/article/details/51375961)  
 [redis 常用整理](http://blog.csdn.net/jone_lu/article/details/50772014)  
 
-## 综合
+## 综合  
 [Hello_Nick_Xu的redis系列文章](http://hello-nick-xu.iteye.com/category/314998)  
 
-## 资源
+## 资源  
 [各种redis相关项目-oschina](https://www.oschina.net/search?scope=project&q=redis)  
 
