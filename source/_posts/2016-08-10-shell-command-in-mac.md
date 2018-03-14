@@ -35,12 +35,17 @@ Linux/Unix 的档案调用权限分为三级 : 档案拥有者、群组、其他
 ##### 例子：
 获取该目录机器子目录下所有文件的所有权限：  
 ```
-chmod -R 777 文件或目录
+chmod -R 777 文件或目录     　   
+```
+
+递归地给directory目录下所有文件和子目录的属主分配读的权限:  
+```
+chmod -R u+r directory  
 ```
 
 ##### 延伸阅读:    
 http://www.runoob.com/linux/linux-comm-chmod.html 
-
+https://zhidao.baidu.com/question/1667808990925980347.html
 
 
 ### lsof
