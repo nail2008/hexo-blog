@@ -16,7 +16,7 @@ tags:
 
 ## UML类图中的关系
 
-![uml notations](2018-03-14-UML-Class-Diagram-Relations/Uml_class_relation_arrows_en.svg.png)
+{% asset_img umlnotations.png UML Notations %}
 
 
 ### 继承 Inheritance
@@ -98,7 +98,7 @@ public class Apartment {
 
 这里要强调一点，看了不少资料，只有wikipedia和Stack Overflow上明确表达了上面提到过的关系：聚合、组成是两种程度更紧递紧的关联，如下图。我觉得是靠谱的，在中文资料中基本没提到过这个。
 
-![uml notations](2018-03-14-UML-Class-Diagram-Relations/jNyV5.jpg)
+{% asset_img jNyV5.jpg 三者关系图 %}
 
 |   |  聚合  | 组成 |
 |:------------- |:---------------| :-------------|

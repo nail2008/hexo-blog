@@ -15,7 +15,7 @@ mac下使用Homebrew安装
 ```
 brew install rabbitmq
 ```
-![install.png](2017-07-11-start-rabbitmq/install.png)
+{% asset_img install.png 安装步骤 %}
 
 默认安装至`/usr/local/opt/rabbitmq`     
 
