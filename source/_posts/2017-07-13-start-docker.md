@@ -22,6 +22,12 @@ OSX 10.10以后在Mac上使用Docker变得极简单（不需要装虚拟机及�
 3. 记住`您的专属加速器地址`
 4. 打开Docker for Mac。Preferences–>Daemon–>Basic–>Registry mirrors，点+，将你的地址贴到这里。然后Apply&Restart。
 
+## 使用DaoCloud加速器（更新于2018-03-27）
+
+最新发现阿里云加速器不好使了，代理会报错，尝试了https改成http也不行。
+
+换成DaoCloud的加速器后恢复正常，超快。注意要更新Docker for Mac到18+版本。
+
 ## 基本使用
 ### 查看版本
 ```
